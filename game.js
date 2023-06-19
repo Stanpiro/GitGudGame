@@ -191,7 +191,7 @@ const enemy_1 = {
   hp: 100,
   armor: 1,
   weapon: 3,
-  img: "Images/enemy-1.png",
+  img: "images/enemy-1.png",
   attSpeed: 2000,
 };
 
@@ -202,7 +202,7 @@ const enemy_2 = {
   hp: 60,
   armor: 1,
   weapon: 2,
-  img: "Images/enemy-2.png",
+  img: "images/enemy-2.png",
   attSpeed: 700,
 };
 
@@ -213,7 +213,7 @@ const enemy_3 = {
   hp: 80,
   armor: 1,
   weapon: 6,
-  img: "Images/enemy-3.png",
+  img: "images/enemy-3.png",
   attSpeed: 5000,
 };
 
@@ -225,7 +225,7 @@ const elite_0 = {
   hp: 300,
   armor: 4,
   weapon: 6,
-  img: "Images/elite-0.png",
+  img: "images/elite-0.png",
   attSpeed: 3500,
 };
 
