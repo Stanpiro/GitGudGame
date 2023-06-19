@@ -1,0 +1,293 @@
+body {
+  background-color: black;
+  font-family: Lora, Montserrat;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/*TOP*/
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 23px;
+}
+
+.time {
+  margin-top: -10px;
+  font-size: 50px;
+  padding-left: 80px;
+  display: flex;
+  min-width: 220px;
+}
+
+#minu,
+#sec {
+  color: white;
+}
+
+.tButton {
+  margin-top: -10px;
+  margin-right: 13px;
+}
+
+.dmgMeter {
+  display: flex;
+  gap: 30px;
+}
+
+.dmg,
+.spelldmg {
+  border: 5px solid rgb(47, 167, 0);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 27px;
+}
+
+.highscore,
+.score {
+  margin-top: -10px;
+  display: flex;
+  gap: 20px;
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+#tutorial,
+#credits,
+#restart {
+  height: 35px;
+  width: 160px;
+  background: #717557;
+}
+
+.title {
+  font-family: "monotype corsiva";
+  font-size: 60px;
+  color: white;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 5px grey;
+  text-align: center;
+  margin-bottom: 13px;
+  padding-left: 13px;
+}
+
+/*Middle*/
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  border: 1px solid grey;
+  margin: 0px;
+  display: flex;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 150px;
+  max-width: 200px;
+  text-align: center;
+  gap: 4.8px;
+}
+
+li {
+  border: 1px solid grey;
+}
+
+p {
+  color: lightsalmon;
+  margin: 0px;
+}
+
+.enemies {
+  display: flex;
+  margin-right: 15px;
+}
+
+.e-1,
+.e-2,
+.e-3 {
+  border: 2px solid grey;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.eStats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.eImage-1,
+.eImage-2,
+.eImage-3 {
+  border: 5px solid darkred;
+  height: 315px;
+  width: 315px;
+  align-self: center;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  -moz-force-broken-image-icon: 1;
+}
+
+.abuttons {
+  margin-bottom: 5px;
+}
+
+#eLAtt,
+#eLSpl,
+#eCAtt,
+#eCSpl,
+#eRAtt,
+#eRSpl {
+  height: 35px;
+  width: 200px;
+}
+
+#eLAtt,
+#eCAtt,
+#eRAtt {
+  background: #b8141d;
+}
+
+#eLSpl,
+#eCSpl,
+#eRSpl {
+  background: #479aff;
+}
+
+.eText {
+  margin-top: 5px;
+}
+
+/*Bottom*/
+
+.bottom {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.exp {
+  border: 5px solid lightblue;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-left: -2px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+button {
+  background: transparent;
+  width: 164px;
+  height: 164px;
+  margin: 0px;
+  padding: 0px;
+  border-color: black;
+  font-family: "monotype corsiva";
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sbuttons {
+  background: #717557;
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  display: flex;
+  gap: 17px;
+}
+
+#XP {
+  border-bottom: 1px solid grey;
+}
+
+/*extra*/
+
+.hidden {
+  display: none;
+}
+
+.btnTitle {
+  font-family: "monotype corsiva";
+  font-size: 75px;
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px grey;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: white;
+  padding-top: 15px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.cText,
+.htpText,
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -46%);
+  width: 96%;
+  height: 82%;
+  background-color: rgb(3, 3, 3);
+  padding: 20px;
+  border-radius: 5px;
+  border: 5px solid rgb(62, 4, 4);
+
+  z-index: 10;
+}
+
+.htpBtSt {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.htpbtns,
+.htpStats {
+  border: 5px solid rgb(62, 4, 4);
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.little {
+  font-size: 10px;
+  text-align: right;
+}

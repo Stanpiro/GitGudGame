@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="title">Git Gud</div>
+      <div class="time">
+        <p id="minu">00</p>
+        <div>:</div>
+        <p id="sec">00</p>
+      </div>
+      <div class="dmgMeter">
+        <div class="dmg">
+          DMG:
+          <p id="dmgN">1</p>
+        </div>
+        <div class="spelldmg">
+          Spell:
+          <p id="spelldmgN">8</p>
+        </div>
+      </div>
+      <div class="score">
+        Score:
+        <p id="SC">0</p>
+      </div>
+      <div class="highscore">
+        Highscore:
+        <p id="HS">0</p>
+      </div>
+
+      <div class="tButton">
+        <button id="tutorial">How to Play</button>
+        <button id="credits">Credits</button>
+      </div>
+    </div>
+
+    <div class="middle">
+      <div class="stats">
+        <ul>
+          <li>HP</li>
+          <p id="hp">100</p>
+          <li>Mana</li>
+          <p id="mana">100</p>
+          <li>Strength</li>
+          <p id="str">1</p>
+          <li>Intelect</li>
+          <p id="int">1</p>
+          <li>Weapon</li>
+          <p id="weapon">0</p>
+          <li>Armor</li>
+          <p id="arm">0</p>
+          <li>P.T.</li>
+          <p id="pt">0</p>
+        </ul>
+      </div>
+
+      <div class="enemies">
+        <div class="e-1">
+          <div class="eText">Enemy Left</div>
+          <img class="eImage-1" alt="Waiting for an Enemy" />
+
+          <div class="eStats">
+            <div>
+              Level
+              <p id="lvl-1">0</p>
+            </div>
+            <div>
+              HP
+              <p id="hp-1">0</p>
+            </div>
+            <div>
+              Armor
+              <p id="arm-1">0</p>
+            </div>
+            <div>
+              Weapon
+              <p id="weapon-1">0</p>
+            </div>
+          </div>
+
+          <div class="abuttons">
+            <button id="eLAtt">Attack Him!</button>
+            <button id="eLSpl">Use a Spell!</button>
+          </div>
+        </div>
+
+        <div class="e-2">
+          <div class="eText">Enemy Center</div>
+          <img class="eImage-2" alt="Waiting for an Enemy" />
+
+          <div class="eStats">
+            <div>
+              Level
+              <p id="lvl-2">0</p>
+            </div>
+            <div>
+              HP
+              <p id="hp-2">0</p>
+            </div>
+            <div>
+              Armor
+              <p id="arm-2">0</p>
+            </div>
+            <div>
+              Weapon
+              <p id="weapon-2">0</p>
+            </div>
+          </div>
+
+          <div class="abuttons">
+            <button id="eCAtt">Attack Him!</button>
+            <button id="eCSpl">Use a Spell!</button>
+          </div>
+        </div>
+
+        <div class="e-3">
+          <div class="eText">Enemy Right</div>
+          <img class="eImage-3" alt="Waiting for an Enemy" />
+
+          <div class="eStats">
+            <div>
+              Level
+              <p id="lvl-3">0</p>
+            </div>
+            <div>
+              HP
+              <p id="hp-3">0</p>
+            </div>
+            <div>
+              Armor
+              <p id="arm-3">0</p>
+            </div>
+            <div>
+              Weapon
+              <p id="weapon-3">0</p>
+            </div>
+          </div>
+
+          <div class="abuttons">
+            <button id="eRAtt">Attack Him!</button>
+            <button id="eRSpl">Use a Spell!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="exp">
+        <h1>XP</h1>
+        <p id="XP">0</p>
+        <h1>Gold</h1>
+        <p id="gold">0</p>
+      </div>
+
+      <div class="sbuttons">
+        <button id="lvlUp">
+          <img src="./Images/6pak.png" alt="Get Strong" /> Get Strong
+        </button>
+        <button id="lvlStr">
+          <img src="./Images/muscle.png" alt="More Muscles" /> More Muscles
+        </button>
+        <button id="lvlInt">
+          <img src="./Images/lamp.png" alt="More smart" /> More smart
+        </button>
+        <button id="lvlWeapon">
+          <img src="./Images/sword.png" alt="Better Weapon" /> Better Weapon
+        </button>
+        <button id="lvlArm">
+          <img src="./Images/armor.png" alt="Better Armor" /> Better Armor
+        </button>
+        <button id="lvlHp">
+          <img src="./Images/heart.png" alt="More HP" /> More HP
+        </button>
+        <button id="lvlMana">
+          <img src="./Images/mana.png" alt="More Mana" /> More Mana
+        </button>
+        <button id="lvlPt">
+          <img src="./Images/lift.png" alt="Hire PT" /> Hire PT
+        </button>
+      </div>
+    </div>
+
+    <div class="topButtons">
+      <div class="cText hidden">
+        <p class="btnTitle">Credits</p>
+        <p class="text">
+          ◼ Game and 16-bits images created by <ins>Daniel Monteiro</ins>
+        </p>
+        <p class="text">
+          ◼ Project resulting from the course:
+          <i
+            ><ins
+              >The Complete JavaScript Course 2023: From Zero to Expert!</ins
+            ></i
+          >
+        </p>
+        <p class="text">- by Jonas Schmedtmann of Udemy</p>
+        <div class="footer">
+          <p class="text little">Got a little tiny help from Carlos Silveira</p>
+          <p class="text little">Build 01</p>
+        </div>
+      </div>
+
+      <div class="htpText hidden">
+        <p class="btnTitle">How to Play</p>
+        <p class="text">This game works like an iddle clicker</p>
+        <div class="htpBtSt">
+          <div class="htpbtns">
+            <p class="text">◽Get Strong = 1 XP Point</p>
+            <p class="text">◽More Muscles = 1 Strength Point, costs 10 XP</p>
+            <p class="text">◽More Smart = 1 Intelect Point, costs 10 XP</p>
+            <p class="text">
+              ◽Better Weapon = Adds 1 Points to Weapon, costs 10 Gold
+            </p>
+            <p class="text">
+              ◽Better Armor = Adds 1 Point to Armor, costs 10 Gold
+            </p>
+            <p class="text">◽More HP = Adds 4 Points to HP, costs 5 XP</p>
+            <p class="text">◽More Mana = Adds 2 Points to Mana, costs 5 XP</p>
+            <p class="text">◽Hire PT = 1 Point to P.T., costs 50 XP</p>
+          </div>
+          <div class="htpStats">
+            <p class="text">
+              ◽HP = Your Hit Points, 0 or lower means you have died
+            </p>
+            <p class="text">◽Mana = Your actual Mana to spend</p>
+            <p class="text">
+              ◽Strength = Adds 1 point to your Damage and 1 more point to More
+              HP
+            </p>
+            <p class="text">
+              ◽Intelect = Adds 3 point to your Spelldmg and 1 more point to
+              More Mana
+            </p>
+            <p class="text">◽Weapon = Adds 3 points to your Damage</p>
+            <p class="text">◽Armor = Reduce 1 point to Enemy Damage</p>
+            <p class="text">◽P.T. = Adds 1 point to Get Strong</p>
+          </div>
+        </div>
+      </div>
+      <div class="gameOver hidden">
+        <p class="btnTitle">Game Over</p>
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
