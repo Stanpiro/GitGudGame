@@ -229,8 +229,19 @@ const elite_0 = {
   attSpeed: 3500,
 };
 
+const elite_1 = {
+  numb: 6,
+  name: "Demon",
+  lvl: 1,
+  hp: 666,
+  armor: 6,
+  weapon: 6,
+  img: "./Images/elite-1.png",
+  attSpeed: 6660,
+};
+
 const enemyAll = [enemy_0, enemy_1, enemy_2, enemy_3];
-const eliteAll = [elite_0];
+const eliteAll = [elite_0, elite_1];
 const attackSpeedSlot = [0, 0, 0, 0];
 const eliteSlot = [0, 0, 0, 0];
 //combat enemy
