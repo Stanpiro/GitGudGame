@@ -256,7 +256,7 @@ const callEnemy = function () {
   const enemyElite = eliteAll[ranEnemyElite];
   if (document.querySelector(`.eImage-${slotEnemy}`).src) {
     stop;
-  } else if (ranType <= 10) {
+  } else if (ranType <= 10 && minutes > 1) {
     document.querySelector(`.eImage-${slotEnemy}`).src = enemyElite.img;
     enemLvl.textContent =
       Math.trunc(Math.random() * (enemyElite.lvl + minutes)) + 1;
