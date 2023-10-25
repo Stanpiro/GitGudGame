@@ -180,7 +180,7 @@ const enemy_0 = {
   hp: 160,
   armor: 2,
   weapon: 2,
-  img: "Images/enemy-0.png",
+  img: "images/enemy-0.png",
   attSpeed: 4000,
 };
 
@@ -236,7 +236,7 @@ const elite_1 = {
   hp: 666,
   armor: 6,
   weapon: 6,
-  img: "./Images/elite-1.png",
+  img: "images/elite-1.png",
   attSpeed: 6660,
 };
 
