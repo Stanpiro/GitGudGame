@@ -284,7 +284,7 @@ const callEnemy = function () {
   }
 };
 
-let respawn = setInterval(callEnemy, 5000);
+let respawn = setInterval(callEnemy, 6500);
 
 const dmgEnemNormal = function (x, y) {
   currHP -= y.textContent;
